@@ -1,0 +1,11 @@
+# Gemfile
+source "https://rubygems.org"
+
+# used to send slack message
+gem 'slack-notifier'
+
+# aws sdk is already installed on Lambda environment
+# gem 'aws-sdk'
+
+# used to communicate with Backlog API
+gem 'rest-client', '2.1.0'
